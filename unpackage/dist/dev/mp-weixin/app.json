@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/users/index/index",
+    "pages/users/comment/index",
+    "pages/users/seen/index",
+    "pages/users/like/index",
+    "pages/articles/index/index",
+    "pages/auth/login/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 80
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#999999S",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "iconPath": "static/images/iconfont-home.png",
+        "selectedIconPath": "static/images/iconfont-home 1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/users/index/index",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/my 1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

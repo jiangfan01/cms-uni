@@ -1,0 +1,1 @@
+<view class="login" style="background:url(../../../static/images/login_bk.png);background-size:contain;background-repeat:no-repeat;height:1200rpx;"><view class="logo">Hello!</view><view class="info"><view data-event-opts="{{[['tap',[['login']]]]}}" class="wechat" bindtap="__e"><text>微信登录</text><image src="../../../static/images/wechat.png" mode></image></view></view></view>
